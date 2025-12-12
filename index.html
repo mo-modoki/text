@@ -1,1 +1,48 @@
-モチャモチャモチャ
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>タイトルをここに</title>
+  <style>
+    :root{
+      --max-width:650px;
+      --base-size:17px;
+      --line-height:1.9;
+      --side-padding:20px;
+    }
+    html,body{
+      height:100%;
+      margin:0;
+      background:#fff;
+      color:#111;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
+    body{
+      font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+      font-size:var(--base-size);
+      line-height:var(--line-height);
+      padding:calc(var(--side-padding) + 2vh) var(--side-padding);
+      box-sizing:border-box;
+      max-width:var(--max-width);
+      margin:0 auto;
+      word-break:break-word;
+      white-space:pre-wrap; /* 入力した改行を保持する */
+    }
+    /* 見出しや段落に少し余白 */
+    h1,h2,h3{margin:0 0 .6em 0; font-weight:600;}
+    p{margin:0 0 1.1em 0;}
+    /* 小さい画面向け微調整 */
+    @media (max-width:420px){
+      :root{ --side-padding:16px; --base-size:16px; }
+    }
+  </style>
+</head>
+<body>
+
+ここにニャスの長文をそのまま貼ってください。
+改行はそのまま表示されます。数百〜数千文字でも読みやすいように余白と行間を広めにしています。
+
+</body>
+</html>
